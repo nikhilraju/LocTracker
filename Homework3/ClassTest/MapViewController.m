@@ -71,7 +71,7 @@
     NSString *queryString=[self.infoRequest description];
     queryString=[queryString stringByReplacingOccurrencesOfString:@" "withString:@"+"];
 
-    [GoogleMapManager nearestVenuesForLatLong:coord withinRadius:[self.mySlider value] forQuery:queryString queryType:@"" googleMapsAPIKey:@"AIzaSyD7p3lc_bVBa8W9DYkC0fu5tyaQhAdmHYA" searchCompletion:^(NSMutableArray *results) {
+    [GoogleMapManager nearestVenuesForLatLong:coord withinRadius:[self.mySlider value] forQuery:queryString queryType:@"" googleMapsAPIKey:@"<Enter APIKey here>" searchCompletion:^(NSMutableArray *results) {
         
         NSMutableArray* result_names=[[NSMutableArray alloc]init];
         NSMutableArray* dist_array=[[NSMutableArray alloc]init];
