@@ -10,6 +10,7 @@
 @interface COMSAppDelegate : UIResponder <UIApplicationDelegate>
 
 //Using App Delegate Properties to share dictionaries/arrays of dictionaries of results across the application
+//testing git 2
 @property (retain,nonatomic) NSMutableArray *sharedResultDictionaryArray;
 @property (retain,nonatomic) NSMutableDictionary *sharedDict;
 @property (retain,nonatomic) NSMutableDictionary *sharedCoreData;
